@@ -1,0 +1,155 @@
+/* reset css */
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*
+1 vi tri
+2. kich thuoc
+3. mau sac
+4. kieu dang
+
+
+*/
+
+
+html{
+
+    font-family: Helvetica,Arial, sans-serif;
+
+
+}
+
+#main{
+
+height: 600vh;
+
+
+}
+
+
+#header{
+    height: 46px;
+    width: 100%;
+    background-color: black;
+    top :0;
+    left: 0;
+    position:fixed;
+    z-index: 10;
+
+}
+#nav
+{
+display: flex;
+
+}
+#nav li{
+
+   list-style: none;
+
+}
+#nav li a{
+
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    cursor: pointer;
+        text-transform: uppercase;
+
+}
+#nav li:hover a{
+    color: black;
+    background-color: #ccc;
+
+cursor: pointer;
+
+}
+#nav .subnav{
+    display: none;
+
+}
+#nav li:hover .subnav{
+    display: block;
+    color: #000;
+    background-color: #fff;
+    width: 160px;
+}
+.subnav li a {
+
+    width: 100%;
+    padding: 8px 16px;
+    text-align: left;
+
+}
+.subnav li{
+   padding-left: 20px;
+   align-items: center;
+cursor: pointer;
+
+}
+
+.subnav li:hover{
+    background-color: #ccc;
+    transition: all 0.5 ease;
+}
+
+/* slider
+-
+-
+-
+-
+-
+*/
+
+#slider{
+margin-top: 46px;
+    padding-top: 50%;
+    background: url(https://www.w3schools.com/w3images/chicago.jpg) top center /cover no-repeat ;
+    position: relative;
+}
+#slider .text-content{
+    position:absolute;
+    bottom: 48px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+}
+#slider .text-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+#slider .text-cmt{
+    font-weight: 15px;
+}
+
+
+#content .content-contain{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+
+    padding: 64px 0;
+
+
+}
+#content .content-contain .content-heading{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+
+#footer{
+content: "";
+
+}
