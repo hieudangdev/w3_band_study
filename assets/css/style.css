@@ -135,7 +135,7 @@ margin-top: 46px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    text-transform: uppercase;
+   
 
     padding: 64px 0;
 
@@ -145,10 +145,59 @@ margin-top: 46px;
     font-size: 30px;
     text-align: center;
     letter-spacing: 4px;
-
+    text-transform: uppercase;
 }
 
 
+#content .text-content{
+
+    font-size:15px;
+    line-height: 22.5px;
+    margin: 15px 0px;
+    text-align:center;
+    opacity: 0.6;
+    font-style: italic;
+
+}
+
+#content .text{
+   margin: 15px 0px;
+   text-align: justify;
+   font-size: 15px;
+   line-height: 1.5;
+   
+}
+#content .list-item{
+    display: flex;
+    padding: 32px 0px;
+    text-align: center;
+    line-height: 22.5px;
+
+}
+#content .name-item{
+    font-size: 15px;
+    margin: 15px 0px ;
+}
+#content .item img{
+    border-radius: 4px;
+    display: inline;
+    margin: 0px 0px 16px;
+    text-align: center;
+    width: 60%;
+}
+
+#content .section-contain{
+    background-color: #000;
+    color: #fff;
+   box-sizing: inherit;
+ 
+  
+   padding-top: 64px;
+   padding-bottom: 64px;
+  
+
+    
+}
 #footer{
 content: "";
 
