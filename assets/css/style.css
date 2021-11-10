@@ -135,7 +135,7 @@ margin-top: 46px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-   
+
 
     padding: 64px 0;
 
@@ -149,7 +149,7 @@ margin-top: 46px;
 }
 
 
-#content .text-content{
+#content .text-content {
 
     font-size:15px;
     line-height: 22.5px;
@@ -160,12 +160,13 @@ margin-top: 46px;
 
 }
 
+
 #content .text{
    margin: 15px 0px;
    text-align: justify;
    font-size: 15px;
    line-height: 1.5;
-   
+
 }
 #content .list-item{
     display: flex;
@@ -190,14 +191,75 @@ margin-top: 46px;
     background-color: #000;
     color: #fff;
    box-sizing: inherit;
- 
-  
+
+
    padding-top: 64px;
    padding-bottom: 64px;
-  
 
-    
+
+
 }
+
+#content .member-list{
+    display: flex;
+    padding: 32px;
+    text-align: center;
+    line-height: 22.5px;
+}
+
+#content .item{
+    margin: 15px;
+    text-align: center;
+}
+#content .member-list img{
+    border-radius: 4px;
+    width: 60%;
+}
+
+
+
+/* Tour-section */
+
+.tour-section{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.ticket-list{
+
+    background-color: #fff;
+    color: #757575;
+    display:list-item;
+
+    text-align:left;
+    list-style: none;
+
+}
+
+.content-contain .ticket-list li{
+    padding: 8px 16px;
+}
+
+.ticket-list span{
+    background-color:red;
+    color: #fff;
+    padding: 5px;
+    margin-left: 4px;
+}
+.ticket-list .november{
+
+border-radius: 50% ;
+background-color: #000;
+color: #fff;
+text-align: right;
+float: right;
+z-index: -1 ;
+
+}
+
+
 #footer{
 content: "";
 
