@@ -191,13 +191,8 @@ margin-top: 46px;
     background-color: #000;
     color: #fff;
    box-sizing: inherit;
-
-
    padding-top: 64px;
    padding-bottom: 64px;
-
-
-
 }
 
 #content .member-list{
@@ -259,6 +254,13 @@ z-index: -1 ;
 
 }
 
+.item-contain{
+    padding: 32px 8px;
+}
+.item-contain img{
+    display: inline-block;
+    width: 100%;
+}
 
 #footer{
 content: "";
