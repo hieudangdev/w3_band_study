@@ -16,7 +16,9 @@
 
 
 */
-
+.clear{
+    clear: both;
+}
 
 html{
 
@@ -238,7 +240,7 @@ margin-top: 46px;
 }
 
 .ticket-list span{
-    background-color:red;
+    background-color: red;
     color: #fff;
     padding: 5px;
     margin-left: 4px;
@@ -246,7 +248,7 @@ margin-top: 46px;
 .ticket-list .november{
 
 border-radius: 50% ;
-background-color: #000;
+  background-color: red;
 color: #fff;
 text-align: right;
 float: right;
@@ -254,13 +256,63 @@ z-index: -1 ;
 
 }
 
-.item-contain{
-    padding: 32px 8px;
+
+.place-list{
+
+    margin-top: 32px;
+    margin-left: -8px;
+    margin-right: -8px;
+color: #fff;
+
 }
-.item-contain img{
+.place-item{
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+
+}
+.place-img{
+    width: 100% ;
+    display: block;
+}.place-img:hover{
+
+    opacity: 0.6;
+}
+
+.place-body{
+    background-color: #fff;
+    color: #000;
+    padding:  16px;
+    line-height: 22.5px;
+
+
+}
+
+.place-heading,.place-time ,.place-text{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.place-time{
+    opacity: 0.6;
+}
+.place-buy-btn{
+    align-items: flex-start;
+    background-color: #000;
     display: inline-block;
-    width: 100%;
+    font-size: 15px;
+    margin: 15px 0px 16px;
+    padding:8px 16px ;
+    text-decoration: none;
+
+    color: #fff;
+
 }
+
+.place-buy-btn:hover{
+    background-color: #ccc;
+
+}
+
 
 #footer{
 content: "";
