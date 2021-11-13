@@ -314,7 +314,48 @@ color: #fff;
 }
 
 
+
 #footer{
 content: "";
+
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-container{
+
+    background-color: #fff;
+    width: 900px;
+    height: 469px;
+    border-radius: 5px 5px;
+
+}
+.modal-header{
+    background-color :#009688;
+    height: 129px;
+    padding: top 32px bottom 32px;
+    color:#fff;
+
+    display: block;
+    text-align: center;
+
+}
+.modal-header-content{
+
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+     line-height: 45px;
+
 
 }
