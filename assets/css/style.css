@@ -303,14 +303,14 @@ color: #fff;
     margin: 15px 0px 16px;
     padding:8px 16px ;
     text-decoration: none;
-
+    
     color: #fff;
 
 }
 
 .place-buy-btn:hover{
     background-color: #ccc;
-
+    opacity: 0.6;
 }
 
 
@@ -327,17 +327,22 @@ content: "";
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
+    display: none;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4);
+
 }
 .modal-container{
 
     background-color: #fff;
     width: 900px;
+   max-width: calc(100%-32px);
     min-height: 300px;
     border-radius: 5px 5px;
+    animation: modalfadein ease .6s;
+    
 
 }
 .modal-header{
@@ -364,14 +369,16 @@ content: "";
 
     padding: 16px;
     margin: 15px;
+    
 
 }
 
 .modal-label{
     display: block;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 22.5px;
     margin-bottom: 12px;
+
 
 }
 .model-input{
@@ -394,4 +401,38 @@ content: "";
     text-align: center;
 width: 100%;
     border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+#id-buy:hover{
+    opacity: 0.8;
+}
+
+.modal-close{
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    margin: 16px 0px;
+    padding: 13px;
+}
+.modal-close:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.modal.open{
+    display: flex;
+}
+
+
+@keyframes modalfadein {
+    from {
+        opacity: 0;
+        transform: translateY(-170px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
