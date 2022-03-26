@@ -1,2 +1,16 @@
-# w3_band_study
-my project code html and css web demo w3_band
+# learn JaveScript
+
+<!-- khoa hoc JavaScript f8
+<!-- !notepad for warning  -->
+# flex
+
+
+flex-wrap: tự động nhảy xuống dòng khi ko có space
+
+
+
+
+<!--? question is life   -->
+
+
+<!-- * Todo list for life -->

@@ -1,0 +1,87 @@
+:root {
+	--white-color: #fff;
+	--text-color: #333;
+	--black-color: #000;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	box-sizing: border-box;
+}
+
+.grid {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.grid__full-width {
+	width: 100%;
+}
+
+.grid__row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header {
+	height: 120px;
+	background-image: linear-gradient(0, #f53e2d, #ff6433);
+}
+ul {
+	list-style: none;
+}
+.navTop {
+	display: flex;
+	justify-content: space-between;
+}
+.navTop__list-item:hover,
+.navTop__list-link:hover {
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+}
+
+.navTop__list-item,
+.navTop__list-link {
+	display: inline-block;
+	font-size: 1.5rem;
+	position: relative;
+	color: var(--white-color);
+	text-decoration: none;
+	font-weight: 300;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navTop__list--icon-fb,
+.navTop__list--icon-ins {
+	margin-left: 5px;
+}
+.navTop__list {
+	padding: 0;
+}
+.navTop__list-item {
+	margin: 0 8px;
+}
+
+.strongtxt {
+	font-weight: bold;
+}
+
+.separate:after {
+	content: '';
+	border-left: 1px solid #fb9086;
+	position: absolute;
+	height: 16px;
+	display: block;
+	right: -9px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.navTop__list--icon-ins,
+.navTop__list--icon-fb {
+	color: #fff;
+}

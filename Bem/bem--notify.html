@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem--notify</title>
+    <link rel="stylesheet" href="./bem--notify.css">
+    <script src="https://kit.fontawesome.com/711281effe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div id="toast">
+
+    </div>
+
+
+
+
+    <div id="panel">
+        <div class="panel__header">
+            <div class="panel__logo">
+
+                <img src="./Asset/logo.png" width='100%' alt="" class='img__logo'>
+            </div>
+
+        </div>
+        <div class="panel__main">
+
+            <input type="text" class="panel__user">
+            <input type="password" class="panel__pass">
+            <!-- <div id='btn__main'>
+
+                <div class="btn btn--success" onclick='showSuccessToast();'>Show success toast</div>
+                <div class="btn btn--error" onclick='showErrorToast();'>Show error toast</div>
+                <div class="btn btn--info" onclick='showInfoToa();'>Show info toast</div>
+                <div class="btn btn--warning" onclick='showWarningToast();'>Show warning toast</div>
+
+
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src='./bem--notify.js'></script>
+
+    <script>
+
+
+        function showSuccessToast() {
+            toast({
+                title: 'Thành công',
+                msg: 'Bạn đã đăng ký thành công !!',
+                type: 'success',
+                duration: 3000,
+            });
+        }
+
+        function showErrorToast() {
+            toast({
+                title: 'ERROR',
+                msg: 'Đã có lỗi xảy ra vui lòng thử lại !!!',
+                type: 'error',
+                duration: 3000,
+            });
+        }
+
+        function showInfoToast() {
+            toast({
+                title: 'INFO',
+                msg: 'Chào mừng bạn đến với devITthoi !!!',
+                type: 'info',
+                duration: 3000,
+            });
+        }
+
+        function showWarningToast() {
+            toast({
+                title: 'WARNING',
+                msg: 'Bạn không được phép truy cập !!!',
+                type: 'warning',
+                duration: 3000,
+            });
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
